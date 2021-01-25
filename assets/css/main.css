@@ -25,6 +25,9 @@ a {
     --color-danger: #f83c7b;
     --color-green: #4dd260;
 }
+.w-100 {
+    width: 100%;
+}
 .section {
     padding: 0 15px;
 }
