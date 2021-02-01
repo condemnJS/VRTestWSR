@@ -1,5 +1,45 @@
 .features {
-    height: 750px;
+    height: 830px;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #fff;
+}
+.featuresCards {
+    flex-flow: row wrap;
+}
+.features__card {
+    width: 375px;
+    height: 480px;
+}
+.features__title {
+    text-align: center;
+    color: var(--color-dark-blue);
+    font-size: 24px;
+}
+.features__description p{
+    font-size: 18px;
+    color: var(--color-grey-primary);
+    text-align: center;
+    margin-top: 20px;
+}
+.features__logo {
+    margin: 50px 0;
+}
+.features__link {
+    margin-top: 50px;
+}
+.features__link a {
+    color:  var(--color-dark-blue);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 13px 70px;
+    border: 1px solid var(--color-dark-blue);
+    border-radius: 24px;
+}
+/* Media */
+@media (max-width: 1199.98px){
+    .features {
+        height: 1200px;
+    }
+    .features__card:last-child {
+    }
 }
